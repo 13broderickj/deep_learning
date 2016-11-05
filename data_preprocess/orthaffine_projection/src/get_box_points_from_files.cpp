@@ -165,11 +165,11 @@ int main(int argc, char** argv)
     		ros_tf_box.header.frame_id = "plane";
     		ros_box.header.frame_id = "camera";
     		
-    		pub_kinect.publish(ros_kinect);
-    		pub_tf_kinect.publish(ros_tf_kinect);
+    		//pub_kinect.publish(ros_kinect);
+    		//pub_tf_kinect.publish(ros_tf_kinect);
     		pub_tf_box.publish(ros_tf_box);
-    		pub_box.publish(ros_box);
-    		ros::Duration(1.0).sleep(); 
+    		//pub_box.publish(ros_box);
+    		//ros::Duration(1.0).sleep(); 
     	}
 #endif
 
